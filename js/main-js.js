@@ -1,4 +1,6 @@
 // JavaScript Document
+
+//
 function openNav() {
     document.getElementById("mySidenav").style.width = "260px";
 }
@@ -25,3 +27,14 @@ $( ".isidropdown" ).toggle( "fast", function() {
     // Animation complete.
   });
 });	
+
+
+//$(".menumuncul").click(function(){
+//    $(".sidenav").toggle( "slow",function() {});
+//});
+//
+//
+//$(".sidenav").hide();
+//$(".closebtn").click(function(){
+//	$(".sidenav").hide();
+//});

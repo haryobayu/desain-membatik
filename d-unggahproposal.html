@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/membatikv2.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+<link rel="shortcut icon" href="favicon.png">
 </head>
 <body>
 
@@ -53,6 +54,10 @@
                 <div class="container-fluid">
                     <div class="row">
                      	<div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="jenjang"><strong>Jenjang</strong></label>
+                                <input class="form-control" type="text" id="jenjang" placeholder="jenjang" readonly>
+                            </div>
                         	<div class="form-group">
                                 <label for="judulproposal"><strong>Judul Naskah</strong></label>
                                 <input class="form-control" type="text" id="judulproposal" placeholder="judul naskah">
@@ -60,53 +65,74 @@
                             <div class="form-group">
                                 <label for="pelajaran"><strong>Pelajaran</strong></label>
                                 <select class="form-control" id="pelajaran">
+                                    <option>Pendidikan Agama</option>
                                     <option>Bahasa Indonesia</option>
                                     <option>Bahasa Inggris</option>
+                                    <option>Kewarganegaraan</option>
                                     <option>Matematika</option>
                                     <option>Fisika</option>
+                                    <option>Biologi</option>
+                                    <option>Kimia</option>
+                                    <option>Geografi</option>
+                                    <option>Sejarah</option>
+                                    <option>Ekonomi</option>
+                                    <option>Kesenian</option>
+                                    <option>Penjaskes</option>
+                                    <option>Teknologi Informsi</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="kelas"><strong>Kelas</strong></label>
                                 <select class="form-control" id="kelas">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                    <option>I</option>
+                                    <option>II</option>
+                                    <option>III</option>
+                                    <option>IV</option>
+                                    <option>V</option>
+                                    <option>VI</option>
+                                    <option>VII</option>
+                                    <option>VIII</option>
+                                    <option>IX</option>
+                                    <option>X</option>
+                                    <option>XI</option>
+                                    <option>XII</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="teknologi"><strong>Teknologi</strong></label>
+                                <select class="form-control" id="teknologi">
+                                    <option>HTML5, JavaScript</option>
+                                    <option>SWF Adobe Animate</option>
+                                    <option>PPT, PPTX</option>
+                                    <option>Lainnya</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="deskripsi"><strong>Deskripsi Program</strong></label>
                                 <textarea class="form-control" id="deskripsi" rows="3"></textarea>
                             </div>
-                            <div class="form-group">
-                                <label for="teknologi"><strong>Teknologi</strong></label>
-                                <input class="form-control" type="text" id="teknologi" placeholder="teknologi yang dipakai">
-                                <div class="fs15">
-                                	contoh : HTML 5, Javascripts, Flash, dll
-                                </div>
-                            </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label for="berkas"><strong>File Naskah</strong></label><br/>
-                                <a href="#" class="mar-r-10"><span class="fa fa-file fs20"></span> proposal_se.pdf</a> | 
-                                <a href="#"><span class="fa fa-trash fs18 mar-r-10  mar-b-5"></span> Hapus file</a>
+                                <a href="#" class="mar-r-10"><span class="fa fa-file fs20"></span> naskah.pdf</a>
                                 <input type="file" class="form-control-file" id="berkas">
                             </div>
                             <div class="form-group">
                                 <label for="berkas"><strong>File Karya mu</strong></label><br/>
-                                <a href="#" class="mar-r-10"><span class="fa fa-file fs20"></span> karya_mu.zip</a> | 
-                                <a href="#"><span class="fa fa-trash fs18 mar-r-10  mar-b-5"></span> Hapus file</a>
+                                <a href="#" class="mar-r-10"><span class="fa fa-file fs20"></span> bahan_ajar.zip</a> 
                                 <input type="file" class="form-control-file" id="berkas">
                             </div> 
                             <div class="pad-10 d-block bor-all bor-radius-5 mar-v-10 bg-eee">
                                 <div class="fs16 color-orange f-bold">Catatan :</div>
-                                - File Naskah yang di ijinkan antara lain : Doc, Docx, TXT<br/>
-                                - File Karya yang di ijinkan antara lain : PPT, PPTX, SWF, ZIP<br/>
-                                - Apabila karya mu berupa HTML 5 dll dapat dikompres dalam bentuk zip<br/>
-                                - Bobot file maksimal 5 MB
+                                <ul>
+                                    <li>Format file naskah yang diperbolehkan: PDF</li>
+                                    <li>Format file karya yang diperbolehkan: ZIP, RAR</li>
+                                    <li>Apabila hasil karya berupa HTML5 dan semacamnya, silakan dikompres terlebih dahulu ke dalam bentuk ZIP</li>
+                                    <li>Apabila karya mu terdapat video, format yang di ijinkan antara lain : MP4</li>
+                                    <li>Format nama file: <b>Jenjang_NamaPeserta_Mapel_Judul</b></li>
+                                    <li>Bobot file maksimal: (a) Naskah: 5 MB; dan (b) Karya: 200 MB.</li>
+                                </ul>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary">Kirim Naskah dan Karya</button>

@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/membatikv2.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+<link rel="shortcut icon" href="favicon.png">
 </head>
 <body>
 
@@ -53,7 +54,7 @@
            		<div class="tmpt-content mar-left">
                 	<div class="form-group">
                     	<label for="username"><strong>Username</strong></label>
-                		<input class="form-control" type="text" id="username" placeholder="username">
+                		<input class="form-control" type="text" id="username" placeholder="username" readonly>
                     </div>
                     <div class="form-group">
                     	<label for="namalengkap"><strong>Nama Lengkap</strong></label>
@@ -64,7 +65,7 @@
     					<input type="email" class="form-control" id="email" placeholder="namaemail@mu.com">
                     </div>
                     <div class="form-group">
-                    	<label for="noidentitas"><strong>No Identitas KTP /SIM</strong></label>
+                    	<label for="noidentitas"><strong>No NUPTK /KTP</strong></label>
                 		<input class="form-control" type="text" id="noidentitas" placeholder="no ktp/sim">
                     </div>
                     <div class="form-group">
@@ -93,36 +94,42 @@
                 		<input class="form-control" type="text" id="acctwitter" placeholder="akun instragram">
                     </div>
                     <div class="form-group">
-                    	<label for="unptk"><strong>No UNPTK</strong></label>
-                		<input class="form-control" type="text" id="unptk" placeholder="unptk">
+                        <label for="provinsi"><strong>Provinsi</strong></label>
+                        <select class="form-control" id="provinsi">
+                            <option>ACEH</option>
+                            <option>BANTEN</option>
+                            <option>LAMPUNG</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kategori"><strong>Kategori</strong></label>
+                        <select class="form-control" id="kategori">
+                            <option>SD</option>
+                            <option>SMP</option>
+                            <option>SMA</option>
+                            <option>SMK</option>
+                        </select>
                     </div>
                     <div class="form-group">
                     	<label for="namasekolah"><strong>Nama Sekolah</strong></label>
     					<input type="text" class="form-control" id="namasekolah" placeholder="nama sekolah">
                     </div>
-                    <div class="form-group">
-                    	<label for="kategori"><strong>Kategori</strong></label>
-                    	<select class="form-control" id="kategori">
-                      		<option>TK</option>
-                      		<option>SD</option>
-                      		<option>SMP</option>
-                      		<option>SMA</option>
-                    	</select>
-                  	</div>
+                    
                     <div class="form-group">
                         <label for="alamat_sekolah"><strong>Alamat Sekolah</strong></label>
                         <textarea class="form-control" id="alamat_sekolah" rows="3"></textarea>
                     </div>
                     <div class="pad-10 d-block bor-all bor-radius-5 mar-v-10 bg-eee">
                     	<div class="fs16 color-orange f-bold">Catatan :</div>
-                        - File yang di ijinkan antara lain : jpeg, jpg, gif<br/>
-                        - Bobot file maksimal 5 MB
+                        <ul>
+                            <li>Format file naskah yang diperbolehkan: PDF</li>
+                            <li>Bobot file maksimal: 5 MB</li>
+                        </ul>
                     </div>
                     
                      <div class="form-group">
                         <label for="berkas"><strong>Berkas Surat Ijin Sekolah</strong></label><br/>
-                     	<a href="#" class="mar-r-10"><span class="fa fa-file fs20"></span> identitas.pdf</a> | 
-                    	<a href="#"><span class="fa fa-trash fs18 mar-r-10  mar-b-5"></span> Hapus file</a>
+                     	<a href="#" class="mar-r-10"><span class="fa fa-file fs20"></span> identitas.pdf</a>
                         <input type="file" class="form-control-file" id="berkas">
                     </div>
                     <div class="form-group">

@@ -171,7 +171,7 @@ background-position:top; background-repeat:no-repeat; margin:0 auto;}
 #sign-in, #sign-up  { display:none !important;}
 .but-sidemenu {margin-top:10px; margin-right:10px; cursor:pointer;}
 #but-log { display: block !important;}
-.swiper-slide img { height:130px !important; width:100%;}
+.swiper-slide img { max-height:130px; width:100%;}
 .bagian-kiri, .bagian-kanan,.bagian-kiri-footer , .bagian-kanan-footer { width: 100%;}
 .txt-content { margin-top:20px;}
 .devider1-top,.devider1-bottom ,.devider-white,.devider2-top,.devider2-bottom,.fordeskt  { display:none !important;}

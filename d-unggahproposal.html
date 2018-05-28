@@ -63,6 +63,31 @@
                                 <input class="form-control" type="text" id="judulproposal" placeholder="judul naskah">
                             </div>
                             <div class="form-group">
+                                <label for="kategori"><strong>Kategori</strong></label>
+                                <select class="form-control" id="kategori">
+                                    <option>Non Kebudayaan</option>
+                                    <option>Kebudayaan</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="deskripsi"><strong>Deskripsi Materi/Program</strong></label>
+                                <textarea class="form-control" id="deskripsi" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="sk"><strong>Kompetensi Inti</strong></label>
+                                <textarea class="form-control" id="sk" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="kd"><strong>Kompetensi Dasar</strong></label>
+                                <textarea class="form-control" id="kd" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="indikator"><strong>Indikator</strong></label>
+                                <textarea class="form-control" id="indikator" rows="3"></textarea>
+                            </div>                
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
                                 <label for="pelajaran"><strong>Pelajaran</strong></label>
                                 <select class="form-control" id="pelajaran">
                                     <option>Pendidikan Agama</option>
@@ -108,12 +133,6 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="deskripsi"><strong>Deskripsi Program</strong></label>
-                                <textarea class="form-control" id="deskripsi" rows="3"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="form-group">
                                 <label for="berkas"><strong>File Naskah</strong></label><br/>
                                 <a href="#" class="mar-r-10"><span class="fa fa-file fs20"></span> naskah.pdf</a>
                                 <input type="file" class="form-control-file" id="berkas">
@@ -128,11 +147,18 @@
                                 <ul>
                                     <li>Format file naskah yang diperbolehkan: PDF</li>
                                     <li>Format file karya yang diperbolehkan: ZIP, RAR</li>
+                                    <li>Dalam pembuatan bahan ajar, disarankan untuk menggunakan gambar-gambar tidak berbayar  dan atau mencantumkan  sumber referensinya</li>
                                     <li>Apabila hasil karya berupa HTML5 dan semacamnya, silakan dikompres terlebih dahulu ke dalam bentuk ZIP</li>
                                     <li>Apabila karya mu terdapat video, format yang di ijinkan antara lain : MP4</li>
                                     <li>Format nama file: <b>Jenjang_NamaPeserta_Mapel_Judul</b></li>
                                     <li>Bobot file maksimal: (a) Naskah: 5 MB; dan (b) Karya: 200 MB.</li>
                                 </ul>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Dengan ini saya menyatakan bahwa hasil karya yang saya unggah adalah ASLI dan dapat dipertanggungjawabkan.
+                                </label>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary">Kirim Naskah dan Karya</button>

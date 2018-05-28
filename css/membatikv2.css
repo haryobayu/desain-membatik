@@ -137,6 +137,8 @@ background-position:top right;}
 .bg-3 { background-image:url("../images/bg-green.jpg"); background-position:left top; background-color:#FFF;}
 .bg-4 { background-image:url("../images/bg-3.jpg"); background-position:right top; background-repeat:no-repeat;}
 .bg-5 { background-image:url("../images/bg-greylight.jpg");}
+.bg-6 { background-image:url("../images/bg-red.jpg"); background-position:left top; background-color:#FFF;}
+.bg-7 { background-image:url("../images/bg-blue.jpg"); background-position:left top; background-color:#FFF;}
 .devider1-top { background-image:url("../images/devider1-top.png"); background-position:left top; 
 background-repeat:no-repeat; width:100%; height:47px;}
 .devider1-bottom { background-image:url("../images/devider1-bottom.png"); background-position:left top; 
@@ -145,6 +147,10 @@ background-repeat:no-repeat; width:100%; height:46px;}
 background-repeat:no-repeat; width:100%; height:54px;}
 .devider2-bottom { background-image:url("../images/devider2-bottom.png"); background-position:left top; 
 background-repeat:no-repeat; width:100%; height:53px;}
+.devider3-top { background-image:url("../images/devider3-top.png"); background-position:left top; 
+background-repeat:no-repeat; width:100%; height:40px;}
+.devider3-bottom { background-image:url("../images/devider3-bottom.png"); background-position:left top; 
+background-repeat:no-repeat; width:100%; height:46px;}
 
 .kotak-langkah { width:230px; height:275px; padding:10px; magin-top:10px !important;mangin-left:10px;margin-right:10px;
 background-color:#FFF;}

@@ -154,11 +154,14 @@ background-repeat:no-repeat; width:100%; height:46px;}
 
 .kotak-langkah { width:230px; height:275px; padding:10px; magin-top:10px !important;mangin-left:10px;margin-right:10px;
 background-color:#FFF;}
+.kotak-langkah3 { width:230px; height:310px; padding:10px; magin-top:10px !important;mangin-left:10px;margin-right:10px;
+background-color:#FFF;}
 
 .kotak-langkah2 { width:230px; height:346px; padding:10px; magin-top:10px !important;mangin-left:10px;margin-right:10px;
 background-color: #F5F5F5;}
 
 .kotak-langkah:hover { cursor:pointer; box-shadow: 5px 5px 5px grey; }
+.kotak-langkah3:hover { cursor:pointer; box-shadow: 5px 5px 5px grey; }
 .devider-white { width: 400px; height:51px; background-image:url("../images/devider-section-putih.jpg"); 
 background-position:top; background-repeat:no-repeat; margin:0 auto;}
 .mar-left { margin-left:0px;}

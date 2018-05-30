@@ -54,10 +54,6 @@
                 <div class="container-fluid">
                     <div class="row">
                      	<div class="col-md-6 col-sm-12">
-                            <div class="form-group">
-                                <label for="jenjang"><strong>Jenjang</strong></label>
-                                <input class="form-control" type="text" id="jenjang" placeholder="jenjang" readonly>
-                            </div>
                         	<div class="form-group">
                                 <label for="judulproposal"><strong>Judul Naskah</strong></label>
                                 <input class="form-control" type="text" id="judulproposal" placeholder="judul naskah">
@@ -65,28 +61,19 @@
                             <div class="form-group">
                                 <label for="kategori"><strong>Kategori</strong></label>
                                 <select class="form-control" id="kategori">
-                                    <option>Non Kebudayaan</option>
-                                    <option>Kebudayaan</option>
+                                    <option>Bahan Ajar</option>
+                                    <option>Konten Budaya</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="deskripsi"><strong>Deskripsi Materi/Program</strong></label>
-                                <textarea class="form-control" id="deskripsi" rows="3"></textarea>
+                                <label for="jenjang"><strong>Jenjang</strong></label>
+                                <select class="form-control" id="jenjang">
+                                    <option>SD</option>
+                                    <option>SMP</option>
+                                    <option>SMA</option>
+                                    <option>SMK</option>
+                                </select>
                             </div>
-                            <div class="form-group">
-                                <label for="sk"><strong>Kompetensi Inti</strong></label>
-                                <textarea class="form-control" id="sk" rows="3"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="kd"><strong>Kompetensi Dasar</strong></label>
-                                <textarea class="form-control" id="kd" rows="3"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="indikator"><strong>Indikator</strong></label>
-                                <textarea class="form-control" id="indikator" rows="3"></textarea>
-                            </div>                
-                        </div>
-                        <div class="col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label for="pelajaran"><strong>Pelajaran</strong></label>
                                 <select class="form-control" id="pelajaran">
@@ -124,6 +111,20 @@
                                 </select>
                             </div>
                             <div class="form-group">
+                                <label for="sk"><strong>Kompetensi</strong></label>
+                                <textarea class="form-control" id="sk" rows="4"></textarea>
+                            </div> 
+                            <div class="form-group">
+                                <label for="indikator"><strong>Indikator</strong></label>
+                                <textarea class="form-control" id="indikator" rows="4"></textarea>
+                            </div>               
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="deskripsi"><strong>Deskripsi Materi</strong></label>
+                                <textarea class="form-control" id="deskripsi" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
                                 <label for="teknologi"><strong>Teknologi</strong></label>
                                 <select class="form-control" id="teknologi">
                                     <option>HTML5, JavaScript</option>
@@ -145,8 +146,8 @@
                             <div class="pad-10 d-block bor-all bor-radius-5 mar-v-10 bg-eee">
                                 <div class="fs16 color-orange f-bold">Catatan :</div>
                                 <ul>
-                                    <li>Format file naskah yang diperbolehkan: PDF</li>
-                                    <li>Format file karya yang diperbolehkan: ZIP, RAR</li>
+                                    <li>Format naskah yang diijinkan: PDF</li>
+                                    <li>Format karya yang diijinkan: ZIP, RAR</li>
                                     <li>Dalam pembuatan bahan ajar, disarankan untuk menggunakan gambar-gambar tidak berbayar  dan atau mencantumkan  sumber referensinya</li>
                                     <li>Apabila hasil karya berupa HTML5 dan semacamnya, silakan dikompres terlebih dahulu ke dalam bentuk ZIP</li>
                                     <li>Apabila karya mu terdapat video, format yang di ijinkan antara lain : MP4</li>
